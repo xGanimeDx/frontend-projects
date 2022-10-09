@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    background: linear-gradient(180deg, rgb(120,73,183), rgb(52,178,213));
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    padding: 0;
+    font-weight: 400;
+}
+
+form {
+    background-color: #2a2a68;
+    margin: 10% auto 0 auto;
+    padding: 1em 2em 1em 2em;
+    max-width: 400px;
+    border: 2px solid #56569b;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+}
+
+input[type=checkbox] {
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+label {
+    font-size: 10px;
+    color: #9c9c9c;
+    text-align: justify;
+    margin-right: 1rem
+}
+
+button {
+    background-color: #5fb02d;
+    border: none;
+    border-radius: 5px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    height: 2rem;
+    width: 30%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.center {
+    height: 2em;
+    margin: 0 auto 1em auto;
+    padding: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 1rem;
+}
