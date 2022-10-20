@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    background-color: #134b5f;
+    color: #e9f5f9;
+    text-align: center;
+}
+
+form {
+    border: 2px solid #e9f5f9;
+    margin: 15% auto auto auto;
+    padding: 25px;
+    max-width: 25%;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    display: flex;
+    margin: 0 auto 1rem auto;
+    height: 2rem;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #e9f5f9;
+    background-color: #134b5f;
+    color: inherit;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+::placeholder {
+    color: inherit;
+}
+
+button {
+    border: 2px solid #e9f5f9;
+    background-color: #134b5f;
+    color: inherit;
+    font-size: 1rem;
+    font-family: inherit;
+    height: 3rem;
+    width: 35%;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
