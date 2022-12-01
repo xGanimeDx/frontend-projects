@@ -5,28 +5,28 @@ let saveBtn = document.getElementById("save-btn");
 let clearBtn = document.getElementById("clear-btn");
 let saveEl = document.getElementById("save-el");
 let count = parseInt(counter.textContent);
-let initialSaveEl = saveEl.innerText;
+let initialSaveEl = saveEl.textContent;
 
 incrementBtn.addEventListener("click", () => {
   count++;
-  counter.innerText = count;
+  counter.textContent = count;
 });
 
 decrementBtn.addEventListener("click", () => {
   if (count > 0) {
     count--;
-    counter.innerText = count;
+    counter.textContent = count;
   }
 });
 
 saveBtn.addEventListener("click", () => {
   if (count !== 0) {
     saveEl.textContent += count + " - ";
-    counter.innerText = 0;
+    counter.textContent = 0;
     count = 0;
   }
 });
 
 clearBtn.addEventListener("click", () => {
-  saveEl.innerText = initialSaveEl;
+  saveEl.textContent = initialSaveEl;
 });
