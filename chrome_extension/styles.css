@@ -1,0 +1,52 @@
+:root {
+  --green-color: #5f9341;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  min-width: 400px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid var(--green-color);
+}
+
+button {
+  padding: 10px;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  border: 1px solid var(--green-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li a,
+li a:focus,
+li a:active,
+li a:visited {
+  color: var(--green-color);
+}
+
+#delete-btn {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
